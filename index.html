@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tutorial_1</title>
+    <style>
+        .profile-photo {
+            max-height: 200px;
+            max-width: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            align-self: center;
+            
+        }
+        h1 {
+            color: black;
+            text-align: center;
+            margin-top: 10px !important;
+            font-weight: bold !important;
+            font-size: 24px !important;
+        }
+        
+        .first p{   
+            color: black;
+            text-align: center;
+            font-size: 16px !important;
+        }
+        
+
+        body::after{
+            background-color: black;
+            opacity: 50%;
+            position: fixed;
+            height: 100vh;
+            width: 100vw;
+        }
+
+
+        .address p {
+            
+            color: black;
+            text-align: center;
+            font-size: 24px !important;
+            margin-left: 1cm !important;
+        }
+        
+        .address h2 {
+            color: black;
+            font-weight: bold !important;
+            text-align: center !important;
+            font-size: 36px !important;
+            
+        }
+        
+    </style>
+</head>
+<body style="background: url('bg.png')">
+    
+    <div class="h-screen w-screen flex items-center justify-center">
+        <div class="first">
+            <center>
+                <img class="profile-photo" src="jere.jpg" alt="">
+            </center>
+            <h1>Jeremiah Castillo</h1>
+            <p>I'm a Junior Web Developer</p>                               
+            <div class="address" style="margin-top: 1cm">
+                <h2>My Address</h2>
+                <p>I'm from <span style="color: #ff7300">Santiago City, Isabela </span> </p>
+                <hr style="width: 110% !important">
+                <div>
+                    <h2>Hobbies</h2>
+                    <p>My Hobbies are: <span style="color: #ff7300">Watching and Listening to Music</span></p>
+                    <hr style="width: 110% !important">
+                        <h2 style="color: rgb(0, 0, 0); font-weight: bold; text-align: center; font-size: 36px">Favorite Foods</h2>
+                        <p style="color: black; font-size:24px !important">My Favorite Foods Are: <span style="color: #ff7300">FRIED CHICKEN</span> </p>
+                        <hr style="width: 110% !important">
+                        <h2 style="color: black; font-weight: bold; text-align: center; font-size: 36px">Favorite Colors</h2>
+                        <p style="color: black; font-size:24px !important">My Favorite Colors is <span style="color: #ff7300">ORANGE</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
